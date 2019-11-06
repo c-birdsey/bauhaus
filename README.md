@@ -6,8 +6,8 @@ College Art Museum.
 ## Relavent notes - in development 
 - [Heroku Deployment](https://bauhaus-375.herokuapp.com/)
 - Notes for Chica: 
-- - Install: Homebrew, Node.js, Git CLI, Heroku CLI
-- - Packages so far: react, react-strap (and maybe react-dnd)
+    - Install: Homebrew, Node.js, Git CLI, Heroku CLI
+    - Packages so far: react, react-strap (and maybe react-dnd)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
