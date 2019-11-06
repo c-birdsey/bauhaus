@@ -25,23 +25,23 @@ class Questions extends Component {
     //landing
     if (this.state.q_number === 1) {
         content = (
-            <div>Question 1</div>
+            <p>Question 1</p>
         );
     } else if(this.state.q_number === 2) {
         content = (
-            <div>Question 2</div>
+            <p>Question 2</p>
         );
     } else if(this.state.q_number === 3) {
         content = (
-            <div>Question 3</div>
+            <p>Question 3</p>
         );
     } else if(this.state.q_number === 4) {
         content = (
-            <div>Question 4</div>
+            <p>Question 4</p>
         );
     } else if(this.state.q_number === 5) {
         content = (
-            <div>Question 5</div>
+            <p>Question 5</p>
         );
     } else {
         btnClass = "hidden";
@@ -56,11 +56,13 @@ class Questions extends Component {
     }
 
     return (
-      <div className="questions">
-        {content}
-        <Button className={btnClass} color="primary" onClick = {() => this.increment_q()}>
-            Next
-        </Button>
+      <div className="landing">
+        <div className="landing-text">
+            {content}
+            <Button className={btnClass} color="primary" onClick = {() => this.increment_q()}>
+                Next
+            </Button>
+        </div>
       </div>
     );
   }
