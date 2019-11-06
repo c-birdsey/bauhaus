@@ -1,3 +1,14 @@
+# HARC375 Exhibiting the Bauhaus - Web App
+
+Simple react survey/game built for Middlebury College HARC375 class, for use in Spring 2020 exhibit at the Middlebury 
+College Art Museum. 
+
+## Relavent notes - in development 
+- [Heroku Deployment](https://bauhaus-375.herokuapp.com/)
+- Notes for Chica: 
+- - Install: Homebrew, Node.js, Git CLI, Heroku CLI
+- - Packages so far: react, react-strap (and maybe react-dnd)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
