@@ -11,7 +11,8 @@
 }
 
 .landing-text {
-  align-content: center;
+  margin: 10rem 10rem 10rem 40rem;  
+  float: left;
 }
 
 .landing-button {
@@ -21,3 +22,10 @@
 /* 
   Questions 
 */
+
+/* 
+  UNIVERSAL
+*/
+.hidden {
+  visibility: hidden;
+}

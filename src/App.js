@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Questions from './Questions.js';
+import { Button } from 'reactstrap';
 
 class App extends Component {
   constructor() {
@@ -9,7 +10,13 @@ class App extends Component {
     this.state = {
       mode: 'landing',
     };
+    this.toggleState = this.toggleState.bind(this);
   }
+
+  toggleState = (newMode) => {
+    this.setState({ mode: newMode})
+  }
+
 
   render() {
     let bodyStyle, content; 
@@ -18,11 +25,16 @@ class App extends Component {
     if (this.state.mode === 'landing') {
       bodyStyle = ("landing");
       content = (
-        <div className="landing-text">Testing</div>
+        <div className="landing-text">
+          <p>Testing</p>
+          <Button color="warning" onClick={() => this.toggleState('questions')}>
+            Begin
+          </Button>
+        </div>
       );
     } else if(this.state.mode === 'questions') {
       bodyStyle = ('questions');
-      content = ( <Questions /> );
+      content = ( <Questions reset={this.toggleState} /> );
     }
 
     return (
