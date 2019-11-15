@@ -18,7 +18,7 @@ class App extends Component {
   }
 
 
-  render() {
+  render() { 
     let bodyStyle, content; 
 
     //landing
