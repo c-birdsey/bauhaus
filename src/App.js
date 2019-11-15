@@ -19,7 +19,7 @@ class App extends Component {
 
 
   render() { 
-    let bodyStyle, content; 
+    let bodyStyle, content;   
 
     //landing
     if (this.state.mode === 'landing') {
