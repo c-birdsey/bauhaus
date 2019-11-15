@@ -10,7 +10,7 @@
   background-image: url('img/landing-bg.png');
 }
 
-.landing-text {
+.landing-text { 
   margin: 10rem 10rem 10rem 40rem;  
   float: left;
 }
@@ -28,4 +28,9 @@
 */
 .hidden {
   visibility: hidden;
+}
+
+.test {
+
+
 }
