@@ -1,7 +1,7 @@
 # HARC375 Exhibiting the Bauhaus - Web App
 
 Simple react survey/game built for Middlebury College HARC375 class, for use in Spring 2020 exhibit at the Middlebury 
-College Art Museum. 
+College Art Museum.   
 
 ## Relavent notes - in development 
 - [Heroku Deployment](https://bauhaus-375.herokuapp.com/)

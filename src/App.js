@@ -7,7 +7,7 @@ class App extends Component {
   constructor() {
     super();
 
-    this.state = {
+    this.state = { 
       mode: 'landing',
     };
     this.toggleState = this.toggleState.bind(this);
@@ -19,15 +19,15 @@ class App extends Component {
 
   
 
-  render() {
-    let bodyStyle, content; 
+  render() { 
+    let bodyStyle, content;   
 
     //landing
     if (this.state.mode === 'landing') {
       bodyStyle = ("landing");
       content = (
         <div className="landing-text">
-          <h3 className="title"><b>TESTING Welcome to the Middlebury Bauhaus Experience</b></h3>
+          <h3 className= "test"><b>Welcome to the Bauhaus Experience</b></h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
             ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
