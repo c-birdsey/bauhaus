@@ -20,12 +20,14 @@ class Questions extends Component {
   }
 
   render() {
-    let content, btnClass; 
+    let content; 
+    let btnClass = "next-btn"; 
 
     //landing
     if (this.state.q_number === 1) {
         content = (
-            <p>Question 1</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+            dolore magna aliqua?</p>
         );
     } else if(this.state.q_number === 2) {
         content = (
@@ -46,7 +48,7 @@ class Questions extends Component {
     } else {
         btnClass = "hidden";
         content = (
-            <div>
+            <div className="results">
                 <p>Results</p>
                 <Button color="danger" onClick={() => this.props.reset('landing')}>
                     Finish
@@ -57,11 +59,13 @@ class Questions extends Component {
 
     return (
       <div className="landing">
-        <div className="landing-text">
-            {content}
-            <Button className={btnClass} color="primary" onClick = {() => this.increment_q()}>
-                Next
-            </Button>
+        <div className="question-text">
+            <div className="question">
+                {content}
+                <Button className={btnClass} color="primary" onClick = {() => this.increment_q()}>
+                    Next
+                </Button>
+            </div>
         </div>
       </div>
     );

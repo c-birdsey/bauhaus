@@ -11,8 +11,20 @@
 }
 
 .landing-text {
-  margin: 10rem 10rem 10rem 40rem;  
-  float: left;
+  margin: 10rem 5rem 10rem 33rem;  
+}
+.title {
+  text-align: center;
+}
+.landing-text p {
+  text-align: center;
+}
+.options-btn {
+  display: flex;
+  justify-content: center;
+}
+.landing-text Button {
+  margin: 0 15px; 
 }
 
 .landing-button {
@@ -22,6 +34,16 @@
 /* 
   Questions 
 */
+.next-btn {
+  margin: 20px 50px 0 0;
+  justify-content: center;
+}
+
+.question-text {
+  margin: 10rem 10rem 10rem 40rem; 
+  display: flex;
+  justify-content: center;
+}
 
 /* 
   UNIVERSAL
