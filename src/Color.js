@@ -178,19 +178,19 @@ class Color extends Component {
                             />
                         </div>
                     </Col>
-                    <Col className="shape-container" xs={3} sm={3} md={3} lg={3} xl={3}>
+                    <Col className="shape-margin shape-container" xs={3} sm={3} md={3} lg={3} xl={3}>
                         <div className={this.state.tri_border}>
                             <div className={this.state.tri_state}
                                 onClick={ this.updateTri }
                             ></div>
                         </div>
                     </Col>
-                    <Col className="shape-container" xs={3} sm={3} md={3} lg={3} xl={3}>
+                    <Col className="shape-margin shape-container" xs={3} sm={3} md={3} lg={3} xl={3}>
                         <div className={this.state.circ_state}
                             onClick={ this.updateCirc }
                         ></div>
                     </Col>
-                    <Col className="shape-container" xs={3} sm={3} md={3} lg={3} xl={3}>
+                    <Col className="shape-margin shape-container" xs={3} sm={3} md={3} lg={3} xl={3}>
                         <div className={this.state.square_state}
                             onClick={ this.updateSquare }
                         ></div>
@@ -199,7 +199,7 @@ class Color extends Component {
                 <Row className="submit-btn"> 
                     <Button 
                         color="primary" 
-                        size="lg"
+                        size="md"
                         onClick = {() => this.submit()}
                         disabled={this.state.submission}
                     > Submit 
@@ -238,7 +238,7 @@ class Color extends Component {
                 </Row>
                 <Row className={K_resultsClass }>
                     <h3><b>Kandinsky's Model </b></h3>
-                    <h3 className="learn-more" onClick={() => this.setState({viewMore: !this.state.viewMore})}>{toggle}</h3>
+                    <h2 className="learn-more" onClick={() => this.setState({viewMore: !this.state.viewMore})}>{toggle}</h2>
                 </Row>
                 <Row className={K_responseClass}> 
                     <Col className="shape-container" xs={3} sm={3} md={3} lg={3} xl={3}>

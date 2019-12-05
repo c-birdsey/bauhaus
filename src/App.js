@@ -38,10 +38,10 @@ class App extends Component {
               ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur.</p>
             <div className="options-btn">
-              <button type="button" class="btn btn-lg btn-outline-dark" onClick={() => this.toggleState('questions')}>
+              <button type="button" className="btn btn-md btn-outline-dark" onClick={() => this.toggleState('questions')}>
                 Take the Bauhausler Quiz
               </button>
-              <button type="button" class="btn btn-outline-dark btn-lg" onClick={() => this.toggleState('color')}>
+              <button type="button" className="btn btn-outline-dark btn-md" onClick={() => this.toggleState('color')}>
                 Learn Color Theory
               </button>
             </div>
