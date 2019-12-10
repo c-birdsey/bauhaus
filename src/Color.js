@@ -159,11 +159,10 @@ class Color extends Component {
                     <h2>Kandinsky's Color Theory</h2>
                 </Row>
                 <Row className="game-header">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
-                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-                    anim id est laborum.
+                    <p> Vassily Kandinsky believed primary shapes corresponded with specific primary colors. He devised a 
+                        survey to test the theory among his students. See if your answers align with the Bauhaus master’s. 
+                        Click a color on the palette to the left, and then select a shape to color it. Then, submit your 
+                        answer to compare with Kandinsky and learn more about color and shape theory. 
                     </p>
                 </Row>
                 <Row className="color-main-row">
@@ -258,13 +257,17 @@ class Color extends Component {
                 </Row>
                 <Row className={aboutColor}>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
-                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-                    anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-                    anim id est laborum.
+                    Kandinsky developed a robust theory surrounding color and shape, believing that color was associated
+                    with certain physical effects and an "inner resonance". He developed his theory by testing and 
+                    conversing with many Bauhaus students.
+                    </p>
+                    <p>
+                    He described yellow as a sharp color, one that represented movement and fluidity - thus, it was 
+                    associated with the pointed triangle. Red was assertive and strong and showed an inner tension that 
+                    Kandinsky found present in the square. Blue was a deeper color that didn't pop quite like red or yellow 
+                    and so it became associated with the calm and restful form of the circle. Color theory was explored 
+                    by many other figures at the Bauhaus, and this experimentation can be seen in a number of the works
+                    we have on exhibit today. 
                     </p>
                 </Row>
                 <Row className={returnBtn}>
