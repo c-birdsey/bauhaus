@@ -67,7 +67,7 @@ class Questions extends Component {
     super();
 
     this.state = {
-      q_number: 1,
+      q_number: 7,
       value: undefined, 
       img: undefined, 
     };

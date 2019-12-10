@@ -213,13 +213,12 @@
 }
 
 .return-btn { 
-  padding: 0rem 150px; 
-  float: right;
+  justify-content: center;
   display: block;
 }
 .offset {
-  -webkit-transform: translateY(-184px);
-  transform: translateY(-184px);
+  -webkit-transform: translateY(-224px);
+  transform: translateY(-224px);
 }
 
 .result-header {
@@ -287,6 +286,7 @@
   font-size: 16px;
 }
 .results-text h3{
+  padding-top: 10px;
   font-size: 18px;
 }
 .results-text h2{
