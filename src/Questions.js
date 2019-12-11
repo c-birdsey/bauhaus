@@ -32,13 +32,13 @@ var data = {
     "itten": {
         name: "Johannes Itten", 
         img: itten, 
-        about: "Johannes Itten was very much an experimental educator. As the head of the preliminary introductory course at the Bauhaus, he encouraged self-expression via a number of different outlets, not contained only to the arts. Within his own work, he explored color and contrast, often with a focus on mysticism as well.", 
+        about: "Johannes Itten was very much an experimental educator. As the head of the preliminary introductory course at the Bauhaus, he encouraged self-expression via a number of different outlets, not only through to the arts. Within his own work, he explored color and contrast, often with a focus on mysticism as well.", 
         workshop: "Vorkurs Preliminary Course", 
         aboutWork: "Training for all students began with the preliminary course where new, experimental educational methods were applied to acquaint students with the use of materials and the basic principles of design. Only after students passed the preliminary course were they allowed to select a workshop for their main course of study. Check out the section of the exhibit on the preliminary course to learn more!"}, 
     "schlemmer": {
         name: "Oskar Schlemmer", 
         img: schlemmer, 
-        about: "Oskar Schlemmer worked primarily as a painter, sculptor, theater designer and choreographer. His work was experimental and abstract, yet he expertly bridged the gap between pure abstraction and representational work. Much of his work dealt with interpretations of the human body and physical forms.", 
+        about: "Oskar Schlemmer worked primarily as a painter, sculptor, theater designer and choreographer. His work was experimental and abstract, yet he expertly bridged the gap between pure abstraction and representational work. Much of his artistic output dealt with interpretations of the human body and physical forms.", 
         workshop: "Theater Workshop", 
         aboutWork: "This was the space within the Bauhaus where students were introduced to modern dance and theater, as well as stage design and the relationship between the human being and space. It supported Schlemmer’s incredibly successful ‘Triadic Ballet’ in 1922 and became a central piece of the Bauhaus curriculum. Check out the section of the exhibit on the theater workshop to learn more!"}, 
     "albers": {
@@ -67,7 +67,7 @@ class Questions extends Component {
     super();
 
     this.state = {
-      q_number: 7,
+      q_number: 1,
       value: undefined, 
       img: undefined, 
     };
