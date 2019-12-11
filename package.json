@@ -1,8 +1,9 @@
 {
   "name": "bauhaus",
-  "version": "1.0",
+  "version": "0.1.0",
   "engines": {
-    "node": "12.12.0"
+    "node": "12.12.0",
+	"npm": "6.11.3"
   },
   "private": true,
   "dependencies": {
