@@ -31,7 +31,7 @@ class App extends Component {
           <Col xs={7} sm={7} md={7} lg={7} xl={7}>
             <h3 className="title"><b>Welcome to the Interactive Bauhaus App</b></h3>
             <p>Welcome to Middlebury College’s interactive app celebrating the 100th anniversary of the Bauhaus. 
-              With this tool you can explore Vassily Kandinsky’s color theory, as well as a step into the shoes of a young 
+              With this tool you can explore Wassily Kandinsky’s color theory, as well as a step into the shoes of a young 
               Bauhaus artist and answer questions that will pair you with an iconic Bauhaus Master and their associated 
               workshop. In the spirit of the Bauhaus, we hope that an interactive and hands-on experience will elevate 
               the experience of art and design theory!</p>
