@@ -159,7 +159,7 @@ class Color extends Component {
                     <h2>Kandinsky's Color Theory</h2>
                 </Row>
                 <Row className="game-header">
-                    <p> Vassily Kandinsky believed certain shapes corresponded with 
+                    <p> Wassily Kandinsky believed certain shapes corresponded with 
                         specific primary colors. He designed a survey to test this 
                         theory among his students, and you too can see if your answers 
                         align with the Bauhaus Master’s. Click a color on the palette 
