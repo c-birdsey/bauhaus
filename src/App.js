@@ -71,10 +71,6 @@ class App extends Component {
 
     return (
       <div>
-        <button onClick={this.goFull}>
-            Go Fullscreen
-          </button>
-   
           <Fullscreen
             enabled={this.state.isFull}
             onChange={isFull => this.setState({isFull})}
