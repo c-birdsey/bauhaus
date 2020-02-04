@@ -4,6 +4,7 @@ import Questions from './Questions.js';
 import Color from './Color.js';
 import { Row, Col } from 'reactstrap';
 import img from './img/modrien.gif'; 
+import Fullscreen from "react-full-screen";
 
 class App extends Component {
   constructor() {
@@ -11,12 +12,17 @@ class App extends Component {
 
     this.state = { 
       mode: 'landing',
+      isFull: false,
     };
     this.toggleState = this.toggleState.bind(this);
   }
 
   toggleState = (newMode) => {
     this.setState({ mode: newMode})
+  }
+
+  goFull = () => {
+    this.setState({ isFull: true });
   }
 
   render() { 
@@ -64,8 +70,19 @@ class App extends Component {
     }
 
     return (
-      <div className="background">
-        {content}
+      <div>
+        <button onClick={this.goFull}>
+            Go Fullscreen
+          </button>
+   
+          <Fullscreen
+            enabled={this.state.isFull}
+            onChange={isFull => this.setState({isFull})}
+          >
+            <div className="background">
+              {content}
+            </div>
+          </Fullscreen>
       </div>
     );
   }
